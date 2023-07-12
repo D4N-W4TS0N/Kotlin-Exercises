@@ -1,0 +1,14 @@
+fun main() {
+    displayInfo("Ankara", 27, 31, 82)
+    displayInfo("Tokyo", 32, 36, 10)
+    displayInfo("Cape Town", 59, 64, 2)
+    displayInfo("Guatemala City", 50, 55, 7)
+}
+
+fun displayInfo(city: String, low: Int, high: Int, rain: Int) {
+    println("City: $city")
+    println("Low temperature: $low, High temperature: $high")
+    println("Chance of rain: $rain%")
+    println()
+    
+}
